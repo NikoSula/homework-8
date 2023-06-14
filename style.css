@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 55px;
+    background-color: #0A22F4;
+    padding: 20px 0;
+	margin: auto;
+}
+
+.top-line{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 30px;
+    color: white;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.contact{
+    background-color: white;
+    color: #171717;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.first-text:after{
+    content: "";
+    width:35px;
+    height:1px;
+    background-color: white;
+    display: block;
+    margin:10px auto;
+    margin-bottom: -15px;
+}
+
+.text{
+    font-family: "BPG Algeti Compact", sans-serif;
+}
+
+.dot,
+.dot-one{
+    background-color: #0A22F4;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.middle-article{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.three-dots{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.white-block{
+    width: 70px;
+    height:70px;
+    background-color: #F9F9F9;
+}
+
+.block{
+    width: 70px;
+    height:70px;
+    background-color: #0A22F4;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    max-width: 250px;
+}
+
+.bottom-article{
+    display: flex;
+    padding: 80px 200px;
+    gap:100px;
+}
